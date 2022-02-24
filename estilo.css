@@ -1,4 +1,7 @@
 
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   text-align: center;
@@ -31,19 +34,6 @@ body {
   display: block;
 }
 
-
-
-#facebook{
-  left: 0px;
-  width: 85px;
-  background: url('Imagenes/face1.png') 0 0;
-}
-
-#instagram{
-  left: 63px;
-  width: 110px;
-  background: url('Imagenes/insta-logo1.png') -70px 0;
-}
 
 h1{
   font-size: 50px;
@@ -101,11 +91,15 @@ p.left{
   width: 85%;
   max-width: 850px;
   margin: 0 auto;
+  scroll-margin-top: 13ex;
 }
 
 .main{
   padding: 10rem;
+  margin-top: 60px;
+
 }
+
 
 .footer{
   background: #D1D1D1;
@@ -157,6 +151,8 @@ p.left{
   box-shadow: 0 5px 5px 0px rgba(0,0,0,.4);
   filter: none;
 }
+
+
 
 /*
 @media only screen and (max-width: 767px){
